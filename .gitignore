@@ -3,3 +3,10 @@
 /wave2vec2emotionRecognition/DataSets
 /arduino/Animatronic_Skull_2456550
 /arduino/Basic+Eyemech+Download+Package
+/wav2vec2Transformers/wav2vec2-base-timit-demo-colab/
+wav2vec2-base-timit-demo-colab
+/wav2vec2Transformers/wav2vec2-base-timit-demo-colab
+*.pt
+*.safetensors
+/wav2vec2Transformers/wav2vec2-base-timit-demo-colab/model.safetensors
+/wav2vec2Transformers/wav2vec2-base-timit-demo-colab/checkpoint-3500/model.safetensors
