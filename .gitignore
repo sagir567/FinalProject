@@ -10,3 +10,7 @@ wav2vec2-base-timit-demo-colab
 *.safetensors
 /wav2vec2Transformers/wav2vec2-base-timit-demo-colab/model.safetensors
 /wav2vec2Transformers/wav2vec2-base-timit-demo-colab/checkpoint-3500/model.safetensors
+checkpoint-4000/
+checkpoint-3500/
+optimizer.pt
+kaggle/
