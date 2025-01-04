@@ -5,7 +5,7 @@ int angle;  // Variable to store the angle
 
 void setup() {
   myServo.attach(9);  // Attach the servo to pin 9
-  Serial.begin(0);  // Start serial communication at 9600 baud
+  Serial.begin(9600);  // Start serial communication at 9600 baud
   Serial.println("Enter an angle between 0 and 180 or type 'speak':");
 }
 
@@ -20,6 +20,7 @@ void speak(int n) {
 
 
 void loop() {
+
   if (Serial.available() > 0) {
     String input = Serial.readStringUntil('\n');  // Read the input string
     input.trim();  // Remove any extra spaces or newline characters
